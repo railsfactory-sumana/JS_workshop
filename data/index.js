@@ -1,7 +1,7 @@
 const students = [
     {
       id: 1,
-      name: 'parasmita',
+      name: 'sumana',
       marks: {
         ennglish: 80,
         science: 70,

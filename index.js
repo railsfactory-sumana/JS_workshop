@@ -1,11 +1,11 @@
 const data = require("./data");
 const transformStudent =(students) => {
     const {english, social, science} = students.marks;
-   return `${students.id}, ${students.name}, ${english}`
+   return `${students.id}, ${students.name}, ${english} ${social} ${science}`
 
 }
 
-const logResult = (result) => {console.log(result)}
+const logResult = (result) => console.log(result)
 const main=() => {
     data.map(transformStudent).map(logResult);
     
